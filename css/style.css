@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #0052b7;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.menu button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #218838;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.body h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #333;
+}
+
+.body p {
+    color: #555;
+}
+.footer {
+    background-color: #999;
+    padding: 20px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top: 1px solid #555;
+}
+
+.communitiies {
+    display: flex;
+    flex-direction: row;
+    color: #333;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+}
+
+.pfp h3 {
+    margin: 0;
+    font-size: xx-large;
+}
+
+.pfp h4 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#asly {
+    color: #004c06;
+}
+
+#aseel {
+    color: #1f8b4c;
+}
+
+#batikha {
+    color: #2ecc71;
+}
