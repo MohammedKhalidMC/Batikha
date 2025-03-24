@@ -4,14 +4,19 @@
         <title>Batikha - Calculator</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="assets/logo.png" type="image/png">
+        <link rel="icon" href="../assets/logo.png" type="image/png">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <script type="text/javascript"></script>
+        <script type="text/javascript">
+            function operation() {
+                let numerator = document.getElementById("numerator");
+                let denominator = document.getElementById("denominator");
+            }
+        </script>
     </head>
     <body>
         <div class="header">
             <div class="logo">
-                <img src="assets/logo.png" alt="logo" width="100" height="100">
+                <img src="../assets/logo.png" alt="logo" width="100" height="100">
                 <h1>Batikha</h1>
             </div>
             <div class="menu">
@@ -28,10 +33,11 @@
             <h2>Fractions To Decimals</h2>
             <br>
             <div class="fraction">
-                <input type="amount">
+                <input type="amount" id="numerator">
                 <br>
-                <input type="amount">
+                <input type="amount" id="denominator">
             </div>
+            <input type="button" value="Confirm" onclick="operation()">
             <div class="decimal">
                 <h4>Answer:</h4>
                 <br>

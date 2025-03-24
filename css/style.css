@@ -43,6 +43,18 @@ body {
     background-color: #218838;
 }
 
+input[type="button"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 7.5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #218838;
+}
 .body {
     display: flex;
     flex-direction: column;
