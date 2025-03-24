@@ -29,12 +29,13 @@ body {
     padding-right: 10px;
     padding-left: 10px;
 }
+
 .menu button {
     background-color: #28a745;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 2.5px;
     cursor: pointer;
 }
 
