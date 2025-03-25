@@ -43,6 +43,29 @@ body {
     background-color: #218838;
 }
 
+input[type="amount"], select {
+    width: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+ }
+ 
+ input[type="button"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 7.5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+ }
+ 
+ input[type="button"]:hover {
+    background-color: #218838;
+ }
+
 .body {
     display: flex;
     flex-direction: column;
