@@ -92,6 +92,7 @@ input[type="amount"], select {
 }
 
 .decimal {
+    display: flex;
     justify-content: center;
 }
 
