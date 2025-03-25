@@ -10,7 +10,10 @@
             function operation() {
                 let numerator = document.getElementById("numerator");
                 let denominator = document.getElementById("denominator");
-            }
+
+                let ans = numerator / denominator;
+                document.getElementById("ans").textContent = `Answer:${ans}`;
+            };
         </script>
     </head>
     <body>
