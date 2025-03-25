@@ -8,8 +8,8 @@
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <script type="text/javascript">
             function operation() {
-                let numerator = Number(document.getElementById("numerator"));
-                let denominator = Number(document.getElementById("denominator"));
+                let numerator = Number(document.getElementById("numerator").value);
+                let denominator = Number(document.getElementById("denominator").value);
 
                 let ans = numerator / denominator;
                 document.getElementById("ans").textContent = ans;
