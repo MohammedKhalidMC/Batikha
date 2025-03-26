@@ -50,6 +50,7 @@ input[type="amount"], select {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    text-align: center;
  }
  
  input[type="button"] {
@@ -88,12 +89,15 @@ input[type="amount"], select {
 }
 
 .fraction {
+    display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .decimal {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .footer {
