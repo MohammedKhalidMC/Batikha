@@ -12,7 +12,13 @@
                 let denominator = Number(document.getElementById("denominator").value);
 
                 let ans = numerator / denominator;
-                document.getElementById("ans").textContent = ans;
+
+                if(denominator === 0) {
+                    document.getElementById("ans").textContent = `According To Modern Math I Should Say 
+                    "Undefined" But My Theory Is That It's 0`;
+                } else {
+                    document.getElementById("ans").textContent = ans;
+                };
             };
         </script>
     </head>
