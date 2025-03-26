@@ -76,6 +76,7 @@ input[type="amount"], select {
     justify-content: center;
     padding-top: 5px;
     text-align: center;
+    align-items: center;
 }
 
 .body h1, h2 {
