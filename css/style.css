@@ -91,6 +91,7 @@ input[type="amount"], select {
 
 .fraction {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
@@ -99,6 +100,10 @@ input[type="amount"], select {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.fraction h3 {
+    margin: 0;
 }
 
 .footer {
